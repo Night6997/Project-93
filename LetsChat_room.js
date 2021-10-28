@@ -47,4 +47,12 @@ function redirectToRoomName(name){
 
 }
 
+function logout(){
+
+  localStorage.removeItem("username");
+  localStorage.removeItem("inputRoom");
+  window.location="index.html";
+
+}
+
 
